@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SHOSA MEMBERS IGORORA | WELCOME</title>
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" type="image/jpeg" href="./images/logo.jpeg">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <div class="nav">
+        <div class="header">
+            <div class="humberger">
+                <a href="#" onclick="OpenSlide()">
+                   <i class="fa fa-bars" aria-hidden="true"></i>
+                </a>
+            </div>
+            <div class="logo">
+                <a href="#">
+                    <p>SHOSA <span>GROUP</span></p>
+                </a>
+            </div>
+            <div class="nav-bar">
+                <ul>
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./index.html">Services</a></li>
+                    <li><a href="./updates/contact-us.html">Contact</a></li>
+                    <li><a href="./index.html">About Us</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="side-nav" id="sideNav">
+            <a href="#" class="btn" onclick="CloseSlide()">&times;</a>
+            <a href="./index.html">Home</a>
+            <a href="./index.html">Services</a>
+            <a href="./updates/contact-us.html">Contact</a>
+            <a href="./index.html">About Us</a>
+        </div>
+     </div>
+    <div id="main">
+         <div class="form-1">
+             <div class="form-details">
+                 <h1>STANDARD HIGH SCHOOL IGORORA OLD STUDENTS ASSOCIATION (SHOSA)</h1>
+                 <h2>REGISTRATION FORM</h2>
+                 <p id="greet"></p>
+                 <form action="https://formspree.io/f/xknkrnvb" method="POST">
+                     <div class="names">
+                         <div class="first">
+                             <label for="FirstName">First Name</label>
+                             <input type="name" name="First Name" placeholder="First Name..." required>                       
+                            </div>
+                            <br>
+                            <div class="second">
+                                <label for="secndName">Second Name</label>
+                                <input type="name" name="Second Name" placeholder="Second Name..." required>
+                            </div>
+                     </div>
+                     <div class="reg-no">
+                         <div class="reg">
+                             <label for="registration">Registration Number</label>
+                             <input type="number" name="Registration No." placeholder="Registration No..." required>
+                         </div>
+                         <br>
+                         <div class="residence">
+                             <label for="residence">Place of Residence</label>
+                             <input type="text" name="Place Of Residence" placeholder="Place of Residence..." required>
+                         </div>
+                     </div>
+                     <div class="address">
+                         <div class="mail">
+                             <label for="email">Email Address</label>
+                             <input type="email" name="Email Address" placeholder="Your Email Address..." required>
+                         </div>
+                         <br>
+                         <div class="home">
+                             <label for="home address">Home Address</label>
+                             <input type="text" name="Home Address" placeholder="Your Home Address...">
+                         </div>
+                     </div>
+                     <br>
+                         <div class="next">
+                             <label for="next of kin"> Phone No.</label>
+                             <input type="tel" name="Phone NO." placeholder="Phone No." required>
+                         </div>
+                     <div class="member">
+                         <p>Register As:</p>
+                         <div class="ordinary">
+                             <label for="Ordinary">Ordinary</label>
+                             <input type="text" name="Registered As" placeholder="Ordinary">
+                             
+                         </div>
+                         <br>
+                         <div class="associate">
+                             <label for="Associate">Associate</label>
+                             <input type="text" name="Registered As" placeholder="Associate">
+                             
+                         </div>
+                     </div>  
+                     <div class="id">
+                         <div class="i-d">
+                             <label for="nin">NIN</label>
+                             <input type="text" name="NIN" placeholder="NIN..." required>
+                         </div>
+                         <br>
+                         <div class="id-details">
+                             <label for="date">Registration Date</label>
+                             <input type="date" name="Registration Date" placeholder="Registration Date" required>
+                         </div>
+                     </div>
+
+                     <div class="next-kin">
+                         <div class="kin">
+                             <label for="next of kin">Next of Kin Name</label>
+                             <input type="text" name="Next Of Kin" placeholder="Next Of Kin" required>
+                         </div>
+                         <br>
+                         <div class="next">
+                             <label for="next of kin">Next of Kin Phone No.</label>
+                             <input type="tel" name="Next of Kin Phone NO." placeholder="Phone No." required>
+                         </div>
+                     </div>
+                     <div class="spouse">
+                         <div class="rel">
+                             <label for="next of kin">Relationship with next of Kin</label>
+                             <input type="text" name="Relationship with next of Kin" placeholder="Relationship" required>
+                         </div>
+                         <br>
+                         <div class="wife">
+                             <label for="spouse">Spouse</label>
+                             <input type="text" name="Spouse" placeholder="Spouse" required>
+                         </div>
+                     </div>
+                     <div class="parents">
+                         <div class="mom">
+                             <label for="mother">Mother</label>
+                             <input type="text" name="Mother" placeholder="Mother's Name" required>
+                         </div>
+                         <br>
+                         <div class="dad">
+                             <label for="dad">Father</label>
+                             <input type="text" name="Father" placeholder="Father's Name" required>
+                         </div>
+                     </div>
+                     <div class="child">
+                         <label for="child">Biological Children if any</label>
+                         <ol><input type="name" name="Biological Children" placeholder="1"></ol>
+                         <ol><input type="name" name="Biological Children" placeholder="2"></ol>
+                         <ol><input type="name" name="Biological Children" placeholder="3"></ol>
+                         <ol><input type="name" name="Biological Children" placeholder="4"></ol>
+                         <ol><input type="name" name="Biological Children" placeholder="5"></ol>
+                     </div>
+                     <div class="declare">
+                         <p>
+                            I the undersigned confirm that all the above filled up information provided by me is true and 
+                            correct. In the event such information shall change, I undertake to immediately inform SHOSA 
+                            and provide any documentation or other evidence pursuant to such change. Every person 
+                            signing this document and/or actually registering for any of the above shall personally be liable 
+                            for all changes
+                         </p>
+                         <p>
+                             <span>Date Of Submit: <input type="date" name="date" ></span> 
+                         </p>
+                     </div>
+                     <button type="submit" class="btn">Send</button>
+                 </form>
+
+             </div>
+         </div>
+        <div class="section-9">
+            <h1>location on <span>Map</span></h1>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.787425926065!2d30.546440114270126!3d-0.22547653545121496!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x19d8950c9435dce1%3A0x33c71f1576806228!2sIgorora%20Town%20Council!5e0!3m2!1sen!2sqa!4v1621019284892!5m2!1sen!2sqa" width="99%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+
+
+        <div class="section-10">
+            <footer>
+                <p>
+                    &copy;  2021 Shosa Group Ibanda Uganda All rights Reserved
+                </p>
+            </footer>
+        </div>
+
+
+
+
+
+
+
+
+
+
+    </div>
+    <script src="./index.js"></script>
+    <script src="//code.tidio.co/t8sg6otnlwnbe8njv4hut2mjikjeie1s.js" async></script>
+</body>
+</html>
